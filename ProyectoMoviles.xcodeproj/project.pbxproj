@@ -15,6 +15,10 @@
 		B708E31B2AE98335003D641C /* ProyectoMoviles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B708E3192AE98335003D641C /* ProyectoMoviles.xcdatamodeld */; };
 		B708E31D2AE98335003D641C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B708E31C2AE98335003D641C /* Assets.xcassets */; };
 		B708E3202AE98335003D641C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B708E31E2AE98335003D641C /* LaunchScreen.storyboard */; };
+		B78F59E02AE9878300EA637F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F59DF2AE9878300EA637F /* Usuario.swift */; };
+		B78F59E22AE98D4200EA637F /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F59E12AE98D4200EA637F /* InicioViewController.swift */; };
+		B78F59E42AE98DC900EA637F /* ControladorUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F59E32AE98DC900EA637F /* ControladorUsuario.swift */; };
+		B78F59E62AE992EE00EA637F /* RegistroUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F59E52AE992EE00EA637F /* RegistroUsuarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		B708E31C2AE98335003D641C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B708E31F2AE98335003D641C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B708E3212AE98335003D641C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78F59DF2AE9878300EA637F /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		B78F59E12AE98D4200EA637F /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		B78F59E32AE98DC900EA637F /* ControladorUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorUsuario.swift; sourceTree = "<group>"; };
+		B78F59E52AE992EE00EA637F /* RegistroUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroUsuarioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +58,6 @@
 				1CB3E636E73905E0E8776C85 /* Pods-ProyectoMoviles.debug.xcconfig */,
 				87E0BA7D9DD6EBC2BCD1CBFE /* Pods-ProyectoMoviles.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +90,10 @@
 				B708E31E2AE98335003D641C /* LaunchScreen.storyboard */,
 				B708E3212AE98335003D641C /* Info.plist */,
 				B708E3192AE98335003D641C /* ProyectoMoviles.xcdatamodeld */,
+				B78F59DF2AE9878300EA637F /* Usuario.swift */,
+				B78F59E12AE98D4200EA637F /* InicioViewController.swift */,
+				B78F59E32AE98DC900EA637F /* ControladorUsuario.swift */,
+				B78F59E52AE992EE00EA637F /* RegistroUsuarioViewController.swift */,
 			);
 			path = ProyectoMoviles;
 			sourceTree = "<group>";
@@ -211,9 +222,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B708E31B2AE98335003D641C /* ProyectoMoviles.xcdatamodeld in Sources */,
+				B78F59E22AE98D4200EA637F /* InicioViewController.swift in Sources */,
 				B708E3152AE98335003D641C /* ViewController.swift in Sources */,
 				B708E3112AE98335003D641C /* AppDelegate.swift in Sources */,
+				B78F59E62AE992EE00EA637F /* RegistroUsuarioViewController.swift in Sources */,
+				B78F59E02AE9878300EA637F /* Usuario.swift in Sources */,
 				B708E3132AE98335003D641C /* SceneDelegate.swift in Sources */,
+				B78F59E42AE98DC900EA637F /* ControladorUsuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
